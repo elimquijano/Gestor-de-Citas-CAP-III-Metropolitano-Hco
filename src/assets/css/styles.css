@@ -1,0 +1,40 @@
+.bg-skyblue {
+    background: #009EFB !important;
+  }
+  .color-skyblue {
+    color: #009EFB !important;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.1);
+  }
+  .btn-outline-skyblue {
+    --bs-btn-color: #009EFB;
+    --bs-btn-border-color: #009EFB;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #009EFB;
+    --bs-btn-hover-border-color: #009EFB;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #009EFB;
+    --bs-btn-active-border-color: #009EFB;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #009EFB;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #009EFB;
+    --bs-gradient: none;
+}
+.font-rb{
+    font-family: 'Roboto', sans-serif;
+}
+.modal-content{
+   width: 200%;
+    
+}
+@media(max-width:920px)
+{
+    .modal-content{
+        width: 100%;
+         
+     } 
+}
+.modal-lgx{
+    max-width: 1500px;
+}

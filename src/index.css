@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-primary {
+  background-color: #009EFB;
+}
+.bg-warning {
+  background-color: #FDA600;
+}
+.bg-danger {
+  background-color: #DD3242;
+}
+.bg-success {
+  background-color: #2AA53D;
+}
+.bg-secondary {
+  background-color: #70807F;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.wrapper.activo {
+  display: grid;
+  grid-template-columns: 0% 100%;
+}
+
+.uno,
+.dos,
+.tres {
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.uno {
+  width: 20px;
+}
+
+.dos {
+  width: 10px;
+}
+
+.tres {
+  width: 5px;
+}
+
+.menu-burger .dos {
+  width: 20px;
+}
+
+.menu-burger .tres {
+  width: 20px;
+}

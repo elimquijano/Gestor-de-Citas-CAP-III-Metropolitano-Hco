@@ -1,0 +1,16 @@
+.user-icon{
+    height: 1.4rem; filter: invert(1) brightness(2)
+}
+.password-icon {
+    height: 1.25rem 
+}
+.input-class::placeholder {
+    font-size: 12px; /* Ajusta el tamaño de fuente según tus preferencias */
+  }
+  .input-class::hover {
+    background-color:black /* Ajusta el tamaño de fuente según tus preferencias */
+  }
+  .input-class:focus {
+    border-color: #3498db; /* Cambia el color a tu preferencia */
+    outline: none; /* Esto elimina el resaltado predeterminado del campo de entrada */
+  }
